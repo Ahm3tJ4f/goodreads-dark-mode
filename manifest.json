@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Goodreads Dark Mode",
+  "version": "1.0.0",
+  "author": "ahm3tj4f",
+  "description": "Finally! Dark mode for Goodreads!",
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/goodreads-logo.svg"],
+      "matches": ["*://*.goodreads.com/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.goodreads.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "images/icons/icon-16.png",
+    "32": "images/icons/icon-32.png",
+    "48": "images/icons/icon-48.png",
+    "128": "images/icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "/popup/popup.html",
+    "default_title": "Goodreads Dark Mode",
+    "default_icon": {
+      "16": "images/icons/icon-16.png",
+      "32": "images/icons/icon-32.png",
+      "48": "images/icons/icon-48.png",
+      "128": "images/icons/icon-128.png"
+    }
+  }
+}

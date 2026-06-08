@@ -1,0 +1,297 @@
+:root {
+    --c0: hsl(0, 0%, 10%);
+    --c1: hsl(0, 0%, 15%);
+    --c2: hsl(0, 1%, 20%);
+    --c3: hsl(0, 1%, 24%);
+    --c4: hsl(0, 1%, 28%);
+    --c5: hsl(0, 0%, 30%);
+    --c7: hsl(168, 14%, 82%);
+    --c8: hsl(0, 0%, 94%);
+
+    --c9: hsl(169, 50%, 33%);
+    --c10: hsl(165, 41%, 36%);
+    --c11: hsl(166, 17%, 39%);
+    --c12: hsl(165, 33%, 61%);
+    --c13: hsl(165, 69%, 91%);
+
+    --b0: var(--c0);
+    --b1: var(--c1);
+    --b2: var(--c2);
+    --b3: var(--c3);
+
+    --t0: var(--c8);
+    --t2: var(--c7);
+    --t3: var(--c12);
+    --t4: var(--c13);
+    --t5: white;
+
+    --bd0: var(--c5);
+}
+
+body[data-gr-dark="active"] * {
+    border-color: var(--bd0) !important;
+}
+
+body[data-gr-dark="active"] .gr-childNewsfeedItem__header:after {
+    background-color: var(--bd0) !important;
+}
+
+body[data-gr-dark="active"],
+body[data-gr-dark="active"] .mainContentFloat,
+body[data-gr-dark="active"] .mainContentContainer,
+body[data-gr-dark="active"] .Alert.Alert--informational,
+body[data-gr-dark="active"] .bigTabs a,
+body[data-gr-dark="active"] .userList .card {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .siteHeader__topLine {
+    background-color: var(--b0) !important;
+    box-shadow: none;
+}
+
+body[data-gr-dark="active"] .Header,
+body[data-gr-dark="active"] .Header__primaryNavContainer,
+body[data-gr-dark="active"] .Header__contents,
+body[data-gr-dark="active"] .siteHeader__primaryNavSeparateLine,
+body[data-gr-dark="active"]
+    .Header__searchContainer
+    .Header__searchContainer--siteHeaderBanner {
+    background-color: var(--b0) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body[data-gr-dark="active"] .gr-newsfeedItem,
+body[data-gr-dark="active"] .gr-childNewsfeedItem__header,
+body[data-gr-dark="active"] .siteAnnouncement {
+    background-color: var(--b2) !important;
+    border-color: var(--b2) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body[data-gr-dark="active"],
+body[data-gr-dark="active"] * {
+    color: var(--t0);
+}
+
+body[data-gr-dark="active"] a {
+    color: var(--t3) !important;
+}
+
+body[data-gr-dark="active"] a:hover {
+    color: var(--t4);
+}
+
+body[data-gr-dark="active"] .siteHeader__topLine a {
+    color: var(--t2);
+}
+
+body[data-gr-dark="active"] button,
+body[data-gr-dark="active"] [role="button"],
+body[data-gr-dark="active"] .gr-button {
+    color: var(--t5) !important;
+}
+
+body[data-gr-dark="active"] .gr-button,
+body[data-gr-dark="active"] .gr-form--compact__submitButton.js-LibraryExport,
+body[data-gr-dark="active"] .gr-form--compact__submitButton.progressTrigger,
+body[data-gr-dark="active"] .chooseShelvesLink {
+    background-color: var(--c11) !important;
+}
+
+body[data-gr-dark="active"] .gr-button.gr-button--caretRight {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .Divider {
+    background-color: var(--bd0) !important;
+}
+
+body[data-gr-dark="active"] .Footer {
+    background-color: var(--b3) !important;
+}
+
+body[data-gr-dark="active"] footer,
+body[data-gr-dark="active"] .stacked.greyBox.searchBox.searchBox--large,
+body[data-gr-dark="active"] #pagestuff.infiniteFooter .buttons,
+body[data-gr-dark="active"] .gr-commentForm.gr-mediaBox,
+body[data-gr-dark="active"] .likeInformation.u-defaultType {
+    background-color: var(--c4) !important;
+}
+
+body[data-gr-dark="active"] .tabs.mediumTabs .tab,
+body[data-gr-dark="active"] .tabs.mediumTabs .selectedTab,
+body[data-gr-dark="active"] div#box,
+body[data-gr-dark="active"] div#box + .wtrDown.wtrRight {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .primaryNavMenu__menu,
+body[data-gr-dark="active"] .floatingBox,
+body[data-gr-dark="active"] .card.clearFix {
+    background-color: var(--b2) !important;
+}
+
+body[data-gr-dark="active"] .siteHeader__spotlight--browseMenu:before {
+    background-color: var(--b2) !important;
+}
+
+body[data-gr-dark="active"] .gr-bookSearchResults__item--active {
+    background-color: var(--c5) !important;
+}
+
+body[data-gr-dark="active"] .TruncatedContent__gradientOverlay {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--b1) 16px
+    ) !important;
+}
+
+body[data-gr-dark="active"] input,
+body[data-gr-dark="active"] textarea,
+body[data-gr-dark="active"] select {
+    background-color: var(--b1) !important;
+    color: var(--t0) !important;
+}
+
+body[data-gr-dark="active"] .dropdown__menu--wantToReadMenu,
+body[data-gr-dark="active"] .dropdown__menu--discussions,
+body[data-gr-dark="active"] .dropdown__menu--notifications,
+body[data-gr-dark="active"] .gr-bookSearchResults--navbar,
+body[data-gr-dark="active"] .wtrShelfMenu {
+    background-color: var(--b2) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body[data-gr-dark="active"] .wantToReadButton__leftShelved,
+body[data-gr-dark="active"]
+    .wantToReadButton__leftShelved
+    + .dropdown.dropdown--wantToReadMenu,
+body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusReadingNow,
+body[data-gr-dark="active"] .wtrDown.wtrRight {
+    background-color: var(--c10) !important;
+}
+
+body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrShelfSortable.wtrStatusToRead,
+body[data-gr-dark="active"]
+    .wtrDown.wtrLeft.wtrShelfSortable.wtrStatusToRead
+    + .wtrDown.wtrRight,
+body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusRead {
+    background-color: var(--c4) !important;
+}
+
+body[data-gr-dark="active"] .shelfChooserWrapper {
+    background-color: var(--b2) !important;
+}
+
+body[data-gr-dark="active"] .Overlay__window,
+body[data-gr-dark="active"] .Overlay__content {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .Button--secondary {
+    background-color: var(--c10) !important;
+}
+
+body[data-gr-dark="active"] .Button--secondary:hover {
+    background-color: var(--c10) !important;
+}
+
+body[data-gr-dark="active"] .FormControl.FormControl {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .HeaderNavDropdown.HeaderNavDropdown--overlay,
+body[data-gr-dark="active"] .wtrPrompt.wtrReorderShelf,
+body[data-gr-dark="active"] .wtrPrompt.wtrUserStatusPrompt {
+    background-color: var(--b2) !important;
+}
+
+body[data-gr-dark="active"] .wtrPromptInstruction {
+    color: var(--t0) !important;
+}
+
+body[data-gr-dark="active"] .SocialFooter {
+    background-color: var(--b1) !important;
+}
+
+body[data-gr-dark="active"] .authorOrTitle {
+    color: var(--t0) !important;
+}
+
+body[data-gr-dark="active"] h2 {
+    color: var(--t0) !important;
+}
+
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    button.wtrExclusiveShelf,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    button.wtrAddShelf,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    label.wtrExclusiveShelf,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    .wtrNonExclusiveShelves
+    label,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    .wtrShelfSearchAddShelf
+    button[type="submit"] {
+    color: var(--t0) !important;
+}
+
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    button.wtrExclusiveShelf:hover,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    button.wtrAddShelf:hover,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    label.wtrExclusiveShelf:hover,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    .wtrNonExclusiveShelves
+    label:hover,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    .wtrShelfSearchAddShelf
+    button[type="submit"]:hover,
+body[data-gr-dark="active"]
+    .wtrButtonContainer
+    .wtrShelfMenu
+    > .wtrShelfList
+    > ul.wtrExclusiveShelves
+    > li:hover {
+    background-color: var(--c4) !important;
+}
+
+body[data-gr-dark="active"] .wantToReadButton__leftUnshelved,
+body[data-gr-dark="active"]
+    .wantToReadButton__leftUnshelved
+    + .dropdown--wantToReadMenu {
+    background-color: var(--c9) !important;
+}
+
+body[data-gr-dark="active"] .siteHeader__subNav--profile {
+    background-color: var(--b2) !important;
+}
+
+body[data-gr-dark="active"] #nav a,
+body[data-gr-dark="active"] .right a {
+    background-color: var(--b1) !important;
+}
