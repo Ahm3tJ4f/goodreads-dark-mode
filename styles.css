@@ -28,119 +28,120 @@
     --bd0: var(--c5);
 }
 
-body[data-gr-dark="active"] * {
+[data-gr-dark="active"] * {
     border-color: var(--bd0) !important;
 }
 
-body[data-gr-dark="active"] .gr-childNewsfeedItem__header:after {
+[data-gr-dark="active"] .gr-childNewsfeedItem__header:after {
     background-color: var(--bd0) !important;
 }
 
-body[data-gr-dark="active"],
-body[data-gr-dark="active"] .mainContentFloat,
-body[data-gr-dark="active"] .mainContentContainer,
-body[data-gr-dark="active"] .Alert.Alert--informational,
-body[data-gr-dark="active"] .bigTabs a,
-body[data-gr-dark="active"] .userList .card {
+[data-gr-dark="active"],
+[data-gr-dark="active"] body,
+[data-gr-dark="active"] .mainContentFloat,
+[data-gr-dark="active"] .mainContentContainer,
+[data-gr-dark="active"] .Alert.Alert--informational,
+[data-gr-dark="active"] .bigTabs a,
+[data-gr-dark="active"] .userList .card {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .siteHeader__topLine {
+[data-gr-dark="active"] .siteHeader__topLine {
     background-color: var(--b0) !important;
     box-shadow: none;
 }
 
-body[data-gr-dark="active"] .Header,
-body[data-gr-dark="active"] .Header__primaryNavContainer,
-body[data-gr-dark="active"] .Header__contents,
-body[data-gr-dark="active"] .siteHeader__primaryNavSeparateLine,
-body[data-gr-dark="active"]
+[data-gr-dark="active"] .Header,
+[data-gr-dark="active"] .Header__primaryNavContainer,
+[data-gr-dark="active"] .Header__contents,
+[data-gr-dark="active"] .siteHeader__primaryNavSeparateLine,
+[data-gr-dark="active"]
     .Header__searchContainer
     .Header__searchContainer--siteHeaderBanner {
     background-color: var(--b0) !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-body[data-gr-dark="active"] .gr-newsfeedItem,
-body[data-gr-dark="active"] .gr-childNewsfeedItem__header,
-body[data-gr-dark="active"] .siteAnnouncement {
+[data-gr-dark="active"] .gr-newsfeedItem,
+[data-gr-dark="active"] .gr-childNewsfeedItem__header,
+[data-gr-dark="active"] .siteAnnouncement {
     background-color: var(--b2) !important;
     border-color: var(--b2) !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-body[data-gr-dark="active"],
-body[data-gr-dark="active"] * {
+[data-gr-dark="active"],
+[data-gr-dark="active"] * {
     color: var(--t0);
 }
 
-body[data-gr-dark="active"] a {
+[data-gr-dark="active"] a {
     color: var(--t3) !important;
 }
 
-body[data-gr-dark="active"] a:hover {
+[data-gr-dark="active"] a:hover {
     color: var(--t4);
 }
 
-body[data-gr-dark="active"] .siteHeader__topLine a {
+[data-gr-dark="active"] .siteHeader__topLine a {
     color: var(--t2);
 }
 
-body[data-gr-dark="active"] button,
-body[data-gr-dark="active"] [role="button"],
-body[data-gr-dark="active"] .gr-button {
+[data-gr-dark="active"] button,
+[data-gr-dark="active"] [role="button"],
+[data-gr-dark="active"] .gr-button {
     color: var(--t5) !important;
 }
 
-body[data-gr-dark="active"] .gr-button,
-body[data-gr-dark="active"] .gr-form--compact__submitButton.js-LibraryExport,
-body[data-gr-dark="active"] .gr-form--compact__submitButton.progressTrigger,
-body[data-gr-dark="active"] .chooseShelvesLink {
+[data-gr-dark="active"] .gr-button,
+[data-gr-dark="active"] .gr-form--compact__submitButton.js-LibraryExport,
+[data-gr-dark="active"] .gr-form--compact__submitButton.progressTrigger,
+[data-gr-dark="active"] .chooseShelvesLink {
     background-color: var(--c11) !important;
 }
 
-body[data-gr-dark="active"] .gr-button.gr-button--caretRight {
+[data-gr-dark="active"] .gr-button.gr-button--caretRight {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .Divider {
+[data-gr-dark="active"] .Divider {
     background-color: var(--bd0) !important;
 }
 
-body[data-gr-dark="active"] .Footer {
+[data-gr-dark="active"] .Footer {
     background-color: var(--b3) !important;
 }
 
-body[data-gr-dark="active"] footer,
-body[data-gr-dark="active"] .stacked.greyBox.searchBox.searchBox--large,
-body[data-gr-dark="active"] #pagestuff.infiniteFooter .buttons,
-body[data-gr-dark="active"] .gr-commentForm.gr-mediaBox,
-body[data-gr-dark="active"] .likeInformation.u-defaultType {
+[data-gr-dark="active"] footer,
+[data-gr-dark="active"] .stacked.greyBox.searchBox.searchBox--large,
+[data-gr-dark="active"] #pagestuff.infiniteFooter .buttons,
+[data-gr-dark="active"] .gr-commentForm.gr-mediaBox,
+[data-gr-dark="active"] .likeInformation.u-defaultType {
     background-color: var(--c4) !important;
 }
 
-body[data-gr-dark="active"] .tabs.mediumTabs .tab,
-body[data-gr-dark="active"] .tabs.mediumTabs .selectedTab,
-body[data-gr-dark="active"] div#box,
-body[data-gr-dark="active"] div#box + .wtrDown.wtrRight {
+[data-gr-dark="active"] .tabs.mediumTabs .tab,
+[data-gr-dark="active"] .tabs.mediumTabs .selectedTab,
+[data-gr-dark="active"] div#box,
+[data-gr-dark="active"] div#box + .wtrDown.wtrRight {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .primaryNavMenu__menu,
-body[data-gr-dark="active"] .floatingBox,
-body[data-gr-dark="active"] .card.clearFix {
+[data-gr-dark="active"] .primaryNavMenu__menu,
+[data-gr-dark="active"] .floatingBox,
+[data-gr-dark="active"] .card.clearFix {
     background-color: var(--b2) !important;
 }
 
-body[data-gr-dark="active"] .siteHeader__spotlight--browseMenu:before {
+[data-gr-dark="active"] .siteHeader__spotlight--browseMenu:before {
     background-color: var(--b2) !important;
 }
 
-body[data-gr-dark="active"] .gr-bookSearchResults__item--active {
+[data-gr-dark="active"] .gr-bookSearchResults__item--active {
     background-color: var(--c5) !important;
 }
 
-body[data-gr-dark="active"] .TruncatedContent__gradientOverlay {
+[data-gr-dark="active"] .TruncatedContent__gradientOverlay {
     background-image: linear-gradient(
         to bottom,
         transparent,
@@ -148,100 +149,100 @@ body[data-gr-dark="active"] .TruncatedContent__gradientOverlay {
     ) !important;
 }
 
-body[data-gr-dark="active"] input,
-body[data-gr-dark="active"] textarea,
-body[data-gr-dark="active"] select {
+[data-gr-dark="active"] input,
+[data-gr-dark="active"] textarea,
+[data-gr-dark="active"] select {
     background-color: var(--b1) !important;
     color: var(--t0) !important;
 }
 
-body[data-gr-dark="active"] .dropdown__menu--wantToReadMenu,
-body[data-gr-dark="active"] .dropdown__menu--discussions,
-body[data-gr-dark="active"] .dropdown__menu--notifications,
-body[data-gr-dark="active"] .gr-bookSearchResults--navbar,
-body[data-gr-dark="active"] .wtrShelfMenu {
+[data-gr-dark="active"] .dropdown__menu--wantToReadMenu,
+[data-gr-dark="active"] .dropdown__menu--discussions,
+[data-gr-dark="active"] .dropdown__menu--notifications,
+[data-gr-dark="active"] .gr-bookSearchResults--navbar,
+[data-gr-dark="active"] .wtrShelfMenu {
     background-color: var(--b2) !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-body[data-gr-dark="active"] .wantToReadButton__leftShelved,
-body[data-gr-dark="active"]
+[data-gr-dark="active"] .wantToReadButton__leftShelved,
+[data-gr-dark="active"]
     .wantToReadButton__leftShelved
     + .dropdown.dropdown--wantToReadMenu,
-body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusReadingNow,
-body[data-gr-dark="active"] .wtrDown.wtrRight {
+[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusReadingNow,
+[data-gr-dark="active"] .wtrDown.wtrRight {
     background-color: var(--c10) !important;
 }
 
-body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrShelfSortable.wtrStatusToRead,
-body[data-gr-dark="active"]
+[data-gr-dark="active"] .wtrDown.wtrLeft.wtrShelfSortable.wtrStatusToRead,
+[data-gr-dark="active"]
     .wtrDown.wtrLeft.wtrShelfSortable.wtrStatusToRead
     + .wtrDown.wtrRight,
-body[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusRead {
+[data-gr-dark="active"] .wtrDown.wtrLeft.wtrStatusRead {
     background-color: var(--c4) !important;
 }
 
-body[data-gr-dark="active"] .shelfChooserWrapper {
+[data-gr-dark="active"] .shelfChooserWrapper {
     background-color: var(--b2) !important;
 }
 
-body[data-gr-dark="active"] .Overlay__window,
-body[data-gr-dark="active"] .Overlay__content {
+[data-gr-dark="active"] .Overlay__window,
+[data-gr-dark="active"] .Overlay__content {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .Button--secondary {
+[data-gr-dark="active"] .Button--secondary {
     background-color: var(--c10) !important;
 }
 
-body[data-gr-dark="active"] .Button--secondary:hover {
+[data-gr-dark="active"] .Button--secondary:hover {
     background-color: var(--c10) !important;
 }
 
-body[data-gr-dark="active"] .FormControl.FormControl {
+[data-gr-dark="active"] .FormControl.FormControl {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .HeaderNavDropdown.HeaderNavDropdown--overlay,
-body[data-gr-dark="active"] .wtrPrompt.wtrReorderShelf,
-body[data-gr-dark="active"] .wtrPrompt.wtrUserStatusPrompt {
+[data-gr-dark="active"] .HeaderNavDropdown.HeaderNavDropdown--overlay,
+[data-gr-dark="active"] .wtrPrompt.wtrReorderShelf,
+[data-gr-dark="active"] .wtrPrompt.wtrUserStatusPrompt {
     background-color: var(--b2) !important;
 }
 
-body[data-gr-dark="active"] .wtrPromptInstruction {
+[data-gr-dark="active"] .wtrPromptInstruction {
     color: var(--t0) !important;
 }
 
-body[data-gr-dark="active"] .SocialFooter {
+[data-gr-dark="active"] .SocialFooter {
     background-color: var(--b1) !important;
 }
 
-body[data-gr-dark="active"] .authorOrTitle {
+[data-gr-dark="active"] .authorOrTitle {
     color: var(--t0) !important;
 }
 
-body[data-gr-dark="active"] h2 {
+[data-gr-dark="active"] h2 {
     color: var(--t0) !important;
 }
 
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     button.wtrExclusiveShelf,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     button.wtrAddShelf,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     label.wtrExclusiveShelf,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     .wtrNonExclusiveShelves
     label,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     .wtrShelfSearchAddShelf
@@ -249,29 +250,29 @@ body[data-gr-dark="active"]
     color: var(--t0) !important;
 }
 
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     button.wtrExclusiveShelf:hover,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     button.wtrAddShelf:hover,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     label.wtrExclusiveShelf:hover,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     .wtrNonExclusiveShelves
     label:hover,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     .wtrShelfSearchAddShelf
     button[type="submit"]:hover,
-body[data-gr-dark="active"]
+[data-gr-dark="active"]
     .wtrButtonContainer
     .wtrShelfMenu
     > .wtrShelfList
@@ -280,18 +281,18 @@ body[data-gr-dark="active"]
     background-color: var(--c4) !important;
 }
 
-body[data-gr-dark="active"] .wantToReadButton__leftUnshelved,
-body[data-gr-dark="active"]
+[data-gr-dark="active"] .wantToReadButton__leftUnshelved,
+[data-gr-dark="active"]
     .wantToReadButton__leftUnshelved
     + .dropdown--wantToReadMenu {
     background-color: var(--c9) !important;
 }
 
-body[data-gr-dark="active"] .siteHeader__subNav--profile {
+[data-gr-dark="active"] .siteHeader__subNav--profile {
     background-color: var(--b2) !important;
 }
 
-body[data-gr-dark="active"] #nav a,
-body[data-gr-dark="active"] .right a {
+[data-gr-dark="active"] #nav a,
+[data-gr-dark="active"] .right a {
     background-color: var(--b1) !important;
 }

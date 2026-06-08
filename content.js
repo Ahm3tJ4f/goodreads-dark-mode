@@ -1,9 +1,11 @@
 const setDark = (enabled) => {
-  document.body.setAttribute("data-gr-dark", enabled ? "active" : "");
+  document.documentElement.setAttribute("data-gr-dark", enabled ? "active" : "");
 };
 
+setDark(true);
+
 chrome.storage.sync.get("enabled", ({ enabled }) => {
-  setDark(enabled);
+  setDark(enabled !== false);
 });
 
 chrome.runtime.onMessage.addListener((msg) => {
