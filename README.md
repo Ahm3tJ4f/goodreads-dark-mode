@@ -20,12 +20,6 @@ A dark mode extension for Goodreads.
 
 Some elements might not be fully themed. If you find something broken, feel free to open an issue or submit a pull request.
 
-## Future Plans
-
-- Customizable color palette
-- Per-section toggles
-- Feedback-driven improvements
-
 ## Contributing
 
 Pull requests are welcome. If something looks off, open an issue.
