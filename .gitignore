@@ -3,3 +3,5 @@ node_modules/
 
 # Nested reference repo — kept on disk but not part of this project
 goodreads-dark-repo/
+
+goodreads-dark.zip
