@@ -36,6 +36,11 @@
     background-color: var(--bd0) !important;
 }
 
+[data-gr-dark="active"] .content.clearfix::after,
+[data-gr-dark="active"] .content.clearfix {
+    background-color: var(--b2) !important;
+}
+
 [data-gr-dark="active"],
 [data-gr-dark="active"] body,
 [data-gr-dark="active"] .mainContentFloat,
@@ -93,6 +98,14 @@
     color: var(--t5) !important;
 }
 
+[data-gr-dark="active"] .smallText.uitext.darkGreyText,
+[data-gr-dark="active"] .RatingsHistogram__labelTitle,
+[data-gr-dark="active"] .BookCard__title,
+[data-gr-dark="active"] .BookCard__authorName,
+[data-gr-dark="active"] .Text {
+    color: var(--t0) !important;
+}
+
 [data-gr-dark="active"] .gr-button,
 [data-gr-dark="active"] .gr-form--compact__submitButton.js-LibraryExport,
 [data-gr-dark="active"] .gr-form--compact__submitButton.progressTrigger,
@@ -129,7 +142,10 @@
 
 [data-gr-dark="active"] .primaryNavMenu__menu,
 [data-gr-dark="active"] .floatingBox,
-[data-gr-dark="active"] .card.clearFix {
+[data-gr-dark="active"] .card.clearFix,
+[data-gr-dark="active"] .prototip.prototipAllowOverflow,
+[data-gr-dark="active"] .gr-popover.gr-popover--small,
+[data-gr-dark="active"] .tooltip.js-tooltip {
     background-color: var(--b2) !important;
 }
 
@@ -221,7 +237,12 @@
     color: var(--t0) !important;
 }
 
-[data-gr-dark="active"] h2 {
+[data-gr-dark="active"] h1,
+[data-gr-dark="active"] h2,
+[data-gr-dark="active"] h3,
+[data-gr-dark="active"] h4,
+[data-gr-dark="active"] h5,
+[data-gr-dark="active"] h6 {
     color: var(--t0) !important;
 }
 
